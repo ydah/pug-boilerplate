@@ -1,13 +1,14 @@
 {
   "root": true,
   "env": {
-    "browser": true
+    "browser": true,
+    "es6": true
   },
   "parserOptions": {
     "parser": "babel-eslint"
   },
   "rules": {
-    "semi": [2, "never"],
+    "semi": [2, "always"],
     "no-console": "off"
   }
 }
